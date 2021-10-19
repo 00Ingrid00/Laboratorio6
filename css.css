@@ -1,14 +1,101 @@
-@media (min-width: 992px){
-    .alto-100{
-        height: 90vh;
-    }
+#body{
+    background-color: black;
 }
-#derecha{
-    background-color: rgb(154, 71, 231);
+@font-face {
+    font-family: 'juego';
+    src: url(../Laboratorio6/upheavtt.ttf);
+    
 }
-#cb3{
-    background-color: rgb(214, 98, 121);
+@font-face {
+    font-family: 'juego2';
+    src: url(../Laboratorio6/Gamer.ttf);
+    
 }
-.h6{
-    color:rgb(255, 255, 255);
+#uno{
+    font-family:'juego';
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+#dos{
+    font-family: 'juego2';
+    color: white;
+}
+.text{
+    font-family: 'juego2';
+    color: white;
+}
+.titulo{
+    font-family:'juego';
+    color: white;
+}
+.black{
+    background-color: black
+    ;
+}
+#ima{
+    background-image:url("https://espacio.fundaciontelefonica.com/wp-content/uploads/2020/07/pixelart-pildora-creativa-1100x550.jpg");
+height: 400px;
+
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.puntos{
+    height: 80px;
+    width: 80px;
+}
+.imagen2{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+#compu{
+    background-image:url("https://i.pinimg.com/736x/fd/b0/08/fdb0087bbc2f3a2662288febc0e17508.jpg");
+height: 400px;
+
+}
+#final{
+    background-image:url("https://i.pinimg.com/originals/0c/54/3e/0c543e3b0a995b117ec966a0681a7233.gif");
+    height: 200px;
+}
+.centro{
+    text-align: center;
+    
+   
+}
+#f1{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7df8f289-9fa9-4488-bfb5-6218cdd42bb4/dbrzcje-158215b0-54d6-432b-8ad5-897d1cfb6f3b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkZjhmMjg5LTlmYTktNDQ4OC1iZmI1LTYyMThjZGQ0MmJiNFwvZGJyemNqZS0xNTgyMTViMC01NGQ2LTQzMmItOGFkNS04OTdkMWNmYjZmM2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cRCqOQZQAF_nNMzyq8R6dwpitwsEj75gzdGoKwfvJUo");
+    height: 283px; 
+    width: 500px;
+    float: left;
+}
+#acordion{
+width: 200px;
+}
+.derecha{
+    float: right;
+    width: 200px;
+}
+.izquierda{
+    float: left;
+    width: 200px;
+}
+.medio{
+    width: 900px;
+}
+.puntod{
+    height: 80px;
+    width: 80px;
+    float: right;
+}
+#izi{
+    background-image: url("https://www.wallpapertip.com/wmimgs/79-796315_pixel-art-background-mobile.jpg");
+    height: 1100px;
+}
+#deri{
+    background-image: url("https://www.wallpapertip.com/wmimgs/39-391734_pixel-art-wallpaper-phone.jpg");
+    height: 1100px;
 }
